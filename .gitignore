@@ -1,0 +1,17 @@
+# Dependencies and build output
+node_modules/
+dist/
+build/
+
+# Runtime output written by the entry program
+output/
+
+# Editor and OS files
+.DS_Store
+*.log
+
+# Local environment and credentials (never committed)
+.env
+.env.*
+*.pem
+wallet.json
